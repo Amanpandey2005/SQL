@@ -1,0 +1,12 @@
+CREATE DATABASE temp;
+USE temp;
+CREATE TABLE student(
+id INT PRIMARY KEY,
+name VARCHAR(255)
+);
+
+INSERT INTO student VALUES( 12345 , "Aman Pandey");
+
+SELECT * FROM student;
+
+DROP DATABASE IF EXISTS temp;
